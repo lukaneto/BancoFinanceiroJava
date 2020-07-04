@@ -24,7 +24,7 @@ public class Conta {
 			return true;
 		}
 		return false;
-	}
+	} 
 	
 	boolean transfere(Conta contaBanco, double valor){
 		if(this.saca(valor)){
