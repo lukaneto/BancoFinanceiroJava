@@ -6,7 +6,7 @@ public class Data {
 	String ano;
 	
 	String formatada(){
-		String data = this.dia+"//"+this.mes+"//"+this.ano;
+		String data = this.dia+"/"+this.mes+"/"+this.ano;
 		return data;
 	}
 }
