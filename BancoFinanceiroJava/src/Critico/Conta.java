@@ -5,7 +5,7 @@ public class Conta {
 	int numero;
 	String agencia;
 	double saldo;
-	String data;
+	Data dataDeAbertura;
 	
 	boolean saca(double valor){
 		
@@ -33,5 +33,20 @@ public class Conta {
 		}else {
 			return false;
 		}
+	}
+	
+	double calculaRendimento(){
+		return this.saldo*0.1;
+	}
+	
+	String recuperaDadosImpressao(){
+		String dados = "Titular: "+this.titular;
+		dados+= "\nNúmero: "+this.numero;
+		dados+= "\nAgencia: "+this.agencia;
+		dados+="\nSaldo: "+this.saldo;
+		dados+="\nData de abertura ";
+		dados+=this.dataDeAbertura.formatada();
+		
+		return dados;
 	}
 }
