@@ -1,11 +1,11 @@
-package br.com.lukaneto.main;
+package br.com.lukaneto.main.clientes;
 
 import br.com.lukaneto.clientes.ClientesDoBanco;
 import br.com.lukaneto.contas.Conta;
 
 import br.com.lukaneto.contas.Data;
 
-public class MainBanco {
+public class MainClientesBanco {
 
 	public static void main(String[] args) {
 		
