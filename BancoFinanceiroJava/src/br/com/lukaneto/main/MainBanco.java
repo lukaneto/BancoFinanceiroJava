@@ -1,13 +1,26 @@
-package br.com.lukaneto.main.clientes;
+package br.com.lukaneto.main;
 
 import br.com.lukaneto.clientes.ClientesDoBanco;
 import br.com.lukaneto.contas.Conta;
 
 import br.com.lukaneto.contas.Data;
+import br.com.lukaneto.funcionarios.GerenteBanco;
 
-public class MainClientesBanco {
+public class MainBanco {
 
 	public static void main(String[] args) {
+		
+		int senha = 1232;
+		GerenteBanco gerente = new GerenteBanco();
+		gerente.setNomeDoFuncionario("Mateus Carvalho");
+		gerente.setSenhaDoGerente(senha);
+		gerente.setSalarioDoFuncionario(5000);
+		System.out.println(gerente.getNomeDoFuncionario());
+		System.out.println(gerente.getSenhaDoGerente());
+		System.out.println(gerente.getBonificacao());
+		gerente.autentica(1232);
+		
+		
 		
 		Conta c1 = new Conta();
 		c1.dataDeAbertura = new Data();

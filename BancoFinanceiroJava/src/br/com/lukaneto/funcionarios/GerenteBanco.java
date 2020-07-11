@@ -29,4 +29,9 @@ public class GerenteBanco extends FuncionariosDoBanco {
 		}
 	}
 	
+	@Override
+	public double getBonificacao(){
+		return super.getBonificacao()+1000;
+	}
+	
 }

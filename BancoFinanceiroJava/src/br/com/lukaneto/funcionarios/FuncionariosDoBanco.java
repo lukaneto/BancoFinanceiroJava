@@ -3,7 +3,7 @@ package br.com.lukaneto.funcionarios;
 public class FuncionariosDoBanco {
 	private String nomeDoFuncionario;
 	private String cpfDoFuncionario;
-	private double salarioDoFuncionario;
+	protected double salarioDoFuncionario;
 	public String getNomeDoFuncionario() {
 		return nomeDoFuncionario;
 	}
@@ -23,5 +23,7 @@ public class FuncionariosDoBanco {
 		this.salarioDoFuncionario = salarioDoFuncionario;
 	}
 	
-	
+	public double getBonificacao(){
+		return this.salarioDoFuncionario*0.10;
+	}
 }
