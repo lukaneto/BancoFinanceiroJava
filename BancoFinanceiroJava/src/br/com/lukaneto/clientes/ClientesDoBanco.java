@@ -1,9 +1,9 @@
 package br.com.lukaneto.clientes;
 
-public class Clientes {
+public class ClientesDoBanco {
 	private String nome;
 	private int idade;
-	public EnderecoDoCliente endereco;
+	public EnderecoDoClienteBanco endereco;
 	
 	
 	public String getTitular(){

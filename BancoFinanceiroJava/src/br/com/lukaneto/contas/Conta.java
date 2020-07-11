@@ -1,9 +1,9 @@
 package br.com.lukaneto.contas;
 
-import br.com.lukaneto.clientes.Clientes;
+import br.com.lukaneto.clientes.ClientesDoBanco;
 
 public class Conta {
-	public Clientes cliente;
+	public ClientesDoBanco cliente;
 	private int numero;
 	private String agencia;
 	private double saldo;

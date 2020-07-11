@@ -1,6 +1,6 @@
 package br.com.lukaneto.clientes;
 
-public class EnderecoDoCliente {
+public class EnderecoDoClienteBanco {
 	private String logradouro;
 	private String bairro;
 	private String numero;

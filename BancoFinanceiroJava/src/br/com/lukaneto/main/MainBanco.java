@@ -1,17 +1,17 @@
 package br.com.lukaneto.main;
 
-import br.com.lukaneto.clientes.Clientes;
+import br.com.lukaneto.clientes.ClientesDoBanco;
 import br.com.lukaneto.contas.Conta;
 
 import br.com.lukaneto.contas.Data;
 
-public class Main {
+public class MainBanco {
 
 	public static void main(String[] args) {
 		
 		Conta c1 = new Conta();
 		c1.dataDeAbertura = new Data();
-		c1.cliente = new Clientes();
+		c1.cliente = new ClientesDoBanco();
 		c1.cliente.setTitular("Luiz Carlos");
 		c1.setNumero(4827);
 		c1.setAgencia("4443-9");
