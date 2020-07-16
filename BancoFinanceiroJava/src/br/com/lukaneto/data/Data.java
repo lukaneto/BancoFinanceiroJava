@@ -1,4 +1,4 @@
-package br.com.lukaneto.contas;
+package br.com.lukaneto.data;
 
 public class Data {
 	private String dia;
@@ -29,7 +29,7 @@ public class Data {
 		this.ano = ano;
 	}
 	
-	String formatada(){
+	public String formatada(){
 		String data = this.dia+"/"+this.mes+"/"+this.ano;
 		return data;
 	}

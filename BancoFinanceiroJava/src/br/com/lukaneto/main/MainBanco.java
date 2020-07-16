@@ -2,8 +2,7 @@ package br.com.lukaneto.main;
 
 import br.com.lukaneto.clientes.ClientesDoBanco;
 import br.com.lukaneto.contas.Conta;
-
-import br.com.lukaneto.contas.Data;
+import br.com.lukaneto.data.Data;
 import br.com.lukaneto.funcionarios.GerenteBanco;
 
 public class MainBanco {
@@ -19,7 +18,6 @@ public class MainBanco {
 		System.out.println(gerente.getSenhaDoGerente());
 		System.out.println(gerente.getBonificacao());
 		gerente.autentica(1232);
-		
 		
 		
 		Conta c1 = new Conta();
